@@ -70,7 +70,6 @@ ul {
 .nav-link a {
   text-decoration: none;
   color: #272a31;
-  font-size: 1.3rem;
   font-weight: 700;
   transition: 0.3s;
   font-size: 1.1rem; }
@@ -188,9 +187,10 @@ section.hero {
   padding: 15px 30px;
   font-weight: 700;
   font-size: 1.2rem;
-  transition: .3s; }
+  transition: 0.3s; }
 
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
   color: #ec5242;
   border-width: 3px;
   border-style: solid;
@@ -282,7 +282,7 @@ section.hero {
     padding-right: 500px; }
   .header-h2 {
     margin-top: 10px;
-    opacity: .8; }
+    opacity: 0.8; }
   .main-program {
     padding: 50px 0; }
   .program-heading::after {
@@ -296,7 +296,7 @@ section.hero {
     width: 100%;
     padding: 40px; }
   .partners {
-    padding: 50PX 0 100px 0; }
+    padding: 50px 0 100px 0; }
   .partners-header::after {
     width: 6%; }
   .partner-list {
