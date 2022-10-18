@@ -1,0 +1,21 @@
+// button
+.btn {
+  color: $color-white;
+  background-color: $color-primary;
+  display: grid;
+  margin: 40px auto;
+  border: 1px solid $color-primary;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+  color: $color-primary;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #ec5242, #fff) 1;
+  background-color: transparent;
+}
