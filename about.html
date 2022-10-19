@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About section for conference website</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
+      <nav class="top-nav">
+        <a href="#">
+            <i class="fa fa-facebook-f"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#">English</a>
+        <a href="#">MyPage</a>
+        <a href="#" class="last">Logout</a>
+    </nav>
       <nav class="nav-bar">
         <div class="hamburger">
           <span class="bar"></span>
@@ -23,15 +35,15 @@
         </div>
         <ul class="menu">
           <li class="nav-link"><a href="/index.html">Home</a></li>
-          <li class="nav-link"><a href="">Program</a></li>
-          <li class="nav-link"><a href="">Join</a></li>
-          <li class="nav-link"><a href="">Sponsor</a></li>
-          <li class="nav-link"><a href="">News</a></li>
-          <li class="nav-link"><a href="">Campaign</a></li>
+          <li class="nav-link"><a href="#program">Program</a></li>
+          <li class="nav-link"><a href="#">Join</a></li>
+          <li class="nav-link"><a href="#sponsor">Sponsor</a></li>
+          <li class="nav-link"><a href="#logo">Logo</a></li>
+          <li class="nav-link"><a href="#">Campaign</a></li>
         </ul>
       </nav>
     </header>
-    <section class="hero-about">
+    <section class="hero-about" id="program">
       <h3 class="about-text">"Hello, Creative World!"</h3>
       <h1 class="about-detail">Explore Kenyan Art</h1>
       <p class="detail">
@@ -47,7 +59,7 @@
       <p class="contact">Please contact us for any further questions at <a href="https://github.com/ginabeki">artsy@studio.com</a> </p>
     </section>
 
-    <section class="about-logo">
+    <section class="about-logo" id="logo">
 <h2 class="logo-head">Artsy Studio Online Logo</h2>
 <p class="logo-detail">The Artsy studio logo was designed by  <a href="https://github.com/ginabeki">Gina Beki </a> using canva</p>
 <img class="logo-design" src="./images/logo.png" alt="Display of company logo">
@@ -60,7 +72,7 @@
 </div>
     </section>
     <!-- Partners -->
-    <section class="partners">
+    <section class="partners" id="sponsor">
       <h2 class="partners-header">Partners</h2>
       <div class="partner-list">
         <img src="./images/google.svg" alt="google icon" class="partner-img" />
