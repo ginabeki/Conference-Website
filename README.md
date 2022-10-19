@@ -1,6 +1,6 @@
 ## Conference-Website
 
-- This is a website for an Art Week event that contains all the program's itinerary including the speakers, partners, a snippet of previous events, and a little bit more about information to better help you engage more with the brand. 
+- This is a website for an Art Week event that contains all the program's itinerary including the speakers, partners, a snippet of previous events, and a little bit more information to better help you engage more with the brand. 
 ## Screenshot of the project
 
 <img src="./images/hero-shot.png">
