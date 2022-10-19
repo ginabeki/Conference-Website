@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conference Page</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
@@ -14,6 +15,17 @@
   </head>
   <body>
     <header>
+      <nav class="top-nav">
+          <a href="#">
+              <i class="fa fa-facebook-f"></i>
+          </a>
+          <a href="#">
+              <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#">English</a>
+          <a href="#">MyPage</a>
+          <a href="#" class="last">Logout</a>
+      </nav>
       <nav class="nav-bar">
         <div class="hamburger">
           <span class="bar"></span>
@@ -28,21 +40,21 @@
         </div>
         <ul class="menu">
           <li class="nav-link"><a href="./about.html">About</a></li>
-          <li class="nav-link"><a href="">Program</a></li>
-          <li class="nav-link"><a href="">Join</a></li>
-          <li class="nav-link"><a href="">Sponsor</a></li>
-          <li class="nav-link"><a href="">News</a></li>
-          <li class="nav-link"><a href="">Campaign</a></li>
+          <li class="nav-link"><a href="#program">Program</a></li>
+          <li class="nav-link"><a href="#join">Join</a></li>
+          <li class="nav-link"><a href="#sponsor">Sponsor</a></li>
+          <li class="nav-link"><a href="#team">Team</a></li>
+          <li class="nav-link"><a href="#">Campaign</a></li>
         </ul>
       </nav>
     </header>
     <!-- Hero section -->
     <section class="hero">
       <h3 class="hero-text">"Hello, Creative World!"</h3>
-      <h1 class="hero-header">
+      <h2 class="hero-header">
         Explore Ke<span class="text">nya</span> <br />
         Art <span class="text">We</span>ek <br />2022
-      </h1>
+      </h2>
       <p class="description">
         Kenya is a diverse nation, from the shores of Lake Victoria to the snow
         capped highlands of Mt. Kenya, down to the sandy beaches of the Coast.
@@ -55,7 +67,7 @@
       </p>
     </section>
     <!-- Main program section -->
-    <section class="main-program">
+    <section class="main-program" id="program">
       <h3 class="program-heading">Main program</h3>
       <div class="card-container">
         <div class="card">
@@ -75,6 +87,14 @@
           </p>
         </div>
         <div class="card">
+          <img src="./images/program_icon_01.png" alt="Event plan icon" />
+          <h4 class="card-header">Review</h4>
+          <p class="card-text">
+            Art exhibitions help you learn more about the art of proper
+            presentation.
+          </p>
+        </div>
+        <div class="card">
           <img src="./images/program_icon_02.png" alt="SCreencast icon" />
           <h4 class="card-header">Review</h4>
           <p class="card-text">
@@ -82,18 +102,26 @@
             presentation.
           </p>
         </div>
+        <div class="card">
+          <img src="./images/program_icon_01.png" alt="Event plan icon" />
+          <h4 class="card-header">Review</h4>
+          <p class="card-text">
+            Art exhibitions help you learn more about the art of proper
+            presentation.
+          </p>
+        </div>
       </div>
-      <button class="btn">Join Artsy Today</button>
+      <button class="btn" id="join">Join Artsy Today</button>
     </section>
 
     <!-- Team -->
 
-    <section class="team">
+    <section class="team" id="team">
       <h3 class="program-heading group">Our Team</h3>
       <div class="team-container"></div>
     </section>
     <!-- Partners -->
-    <section class="partners">
+    <section class="partners" id="sponsor">
       <h2 class="partners-header">Partners</h2>
       <div class="partner-list">
         <img src="./images/google.svg" alt="google icon" class="partner-img" />
