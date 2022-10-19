@@ -30,7 +30,6 @@
 - Install wave extension to check project accessibilty.
 
 ### Live Demo
-- Here's the [live link](https://www.loom.com/share/87858677e9c740abbdf4e7646deae94a) representation on loom
 
 - To view a live demo of the project you can click on this [link](https://ginabeki.github.io/Conference-Website/).
 
