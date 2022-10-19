@@ -146,6 +146,7 @@ section.hero {
 .program-heading {
   color: $color-white;
   font-size: 1.8rem;
+  background-color: #272932;
   text-align: center;
   padding-top: 30px;
   position: relative;
@@ -208,6 +209,7 @@ section.hero {
 
 .program-heading.group {
   color: $color-secondary;
+  background-color: transparent;
 }
 
 .team-container {
@@ -241,7 +243,8 @@ section.hero {
 
 .role {
   font-style: italic;
-  color: $color-primary;
+  color: #E61F09;
+  font-size: 1rem;
 }
 
 .line {
@@ -545,7 +548,7 @@ section.hero {
 
   .detail {
     width: 60%;
-    text-align: justify;
+    text-align: left;
   }
 
   .workshop {
