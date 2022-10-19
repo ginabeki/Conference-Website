@@ -4,7 +4,7 @@
   "description": "Building a conference website for an art event",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass sass/main.scss css/styles.css"
+    "sass": "node-sass sass/main.scss css/styles.css -w"
   },
   "repository": {
     "type": "git",
